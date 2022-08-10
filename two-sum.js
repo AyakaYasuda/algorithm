@@ -53,3 +53,6 @@ const twoSumFunc = (nums, target) => {
 console.log(twoSumFunc([2, 7, 11, 15], 9));
 console.log(twoSumFunc([11, 7, 15, 2], 9));
 console.log(twoSumFunc([11, 7, 15, 2], 13));
+
+// Time Complexity: O(N)
+// Space Complexity: O(N)

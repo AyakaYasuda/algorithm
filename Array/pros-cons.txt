@@ -1,0 +1,9 @@
+pros
+- fast lookups
+- fast push/pop
+- ordered
+
+cons
+- slow inserts
+- slow deletes
+- Fixed size if using static arrays

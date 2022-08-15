@@ -1,0 +1,31 @@
+What is Big O?
+
+- What matters is how well a problem is solved?
+- We use big o to distinguish bad code from good code, good code from great code.
+- Big O notation is a language we use to talk about how long algorithm takes to run.
+- Big O complexity chart shows us, as the input element increases, how many more operations we have to do.
+
+
+What is good code?
+
+1. Readable
+2. Scalable - big o notation allows us to measure code's scalability
+
+Even if the number of input increases, the code doesn't slow down more and more. => The code has great scalability.
+Two things we want to consider as an engineer: speed, memory
+
+
+Rules
+
+1. Worst case
+2. Remove constants
+3. Different terms for inputs
+4. Drop non dominants
+
+
+What causes Space complexity?
+
+- variables
+- data structures
+- function call
+- allocations 

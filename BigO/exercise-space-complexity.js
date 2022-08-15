@@ -1,0 +1,20 @@
+// we need to care about additional space and how big it is.
+
+
+//Space complexity O(1)
+function boooo(n) {
+  for (let i = 0; i < n; i++) {
+    console.log('booooo');
+  }
+}
+
+//Space complexity O(n)
+function arrayOfHiNTimes(n) {
+  var hiArray = [];
+  for (let i = 0; i < n; i++) {
+    hiArray[i] = 'hi';
+  }
+  return hiArray;
+}
+
+arrayOfHiNTimes(6);

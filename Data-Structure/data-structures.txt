@@ -1,0 +1,20 @@
+- Arrays
+- Hash Tables
+- Linked Lists
+- Stacks + Queues
+- Trees
+- Graphs
+
+How computers store data
+- Variables are stored in RAM(random access memory) In RAM, you lose the memory when you turn off a computer.
+- In RAM has massive shelves with addresses and each shelf has 1 byte = 8 bits.
+- Data structure is an arrangement of data.
+- Out goal is to minimize operations that we need to do for CPU to get the data from RAM.
+
+Operations on data structures
+- Inserting
+- Deleting
+- Traversal
+- Searching
+- Sorting
+- Access

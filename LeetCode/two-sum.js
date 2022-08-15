@@ -56,3 +56,8 @@ console.log(twoSumFunc([11, 7, 15, 2], 13));
 
 // Time Complexity: O(N)
 // Space Complexity: O(N)
+
+const a = [1,2,3]
+for (let i = 0; i < a.length; i++) {
+  a.shift();
+}

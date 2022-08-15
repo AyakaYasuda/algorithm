@@ -59,4 +59,31 @@ function mergeSortedArrays(array1, array2) {
   return mergedArr;
 }
 
+function mergeSortedArrays2(array1, array2) {
+  if (array1.length === 0) {
+    return array2;
+  }
+
+  if (array2.length === 0) {
+    return array1;
+  }
+
+  const mergedArr = [];
+  let i = 0;
+  let j = 0;
+
+  while (array1[i] || array2[j]) {
+    if (array2[j] === undefined || array1[i] < array2[j]) {
+      mergedArr.push(array1[i]);
+      i++;
+    } else {
+      mergedArr.push(array2[j]);
+      j++;
+    }
+  }
+
+  return mergedArr;
+}
+
 console.log(mergeSortedArrays([0, 3, 4, 31], [4, 6, 30]));
+console.log(mergeSortedArrays2([0, 3, 4, 31], [4, 6, 30, 35]));

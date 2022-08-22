@@ -1,0 +1,11 @@
+arrays
+- searching/inserting something takes long time
+- keys are always 0, 1, 2, 3...
+- data will be placed next each other
+
+
+hash tables
+- you can search/insert something really fast
+- hash tables can tack flexible keys
+- no concept of order: data could be placed all over the place
+- slow key iteration

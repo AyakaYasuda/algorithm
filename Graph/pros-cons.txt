@@ -1,0 +1,5 @@
+pros
+- relationships
+
+cons
+- scaling is hard

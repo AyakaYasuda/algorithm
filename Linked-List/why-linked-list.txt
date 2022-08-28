@@ -1,0 +1,21 @@
+<< linked lists >>
+- Linked lists are a loose data structure, so you can insert a value in the middle of the list
+- To access to a particular item, you need to traverse items until you get to it: iteration - O(n)
+- Items will be scattered all over the memory
+- Iterating through items in liked lists are a bit slower than iterating items in arrays
+- Inserting an item in the middle of the linked list is better than inserting into arrays
+
+prepend: O(1)
+append: O(1)
+lookup: O(n)
+insert: O(n)
+delete: O(n)
+
+<< arrays >>
+- When inserting an item in the array, the array needs to shift all items and indexes down, which costs us O(n)
+- If you want to access a particular item, it's easy because it has an index
+- Array items are always located right next each other in the memory
+
+<< hash maps >>
+- The easiest way to insert Items or delete items
+- No order

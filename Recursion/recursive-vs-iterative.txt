@@ -1,0 +1,16 @@
+- Anything you do with a recursion can be done iteratively.
+
+pros
+- Recursion can keep your code dry and simpler.
+
+cons
+- Recursion makes extra function calls that take up stack space.
+- Time Complexity is large.
+
+when to use recursion
+- Every time you are using a tree or converting something into a tree, consider recursion.
+1. Divided into a number of subproblems that are smaller instances of the same problem.
+2. Each instance of the subproblem is identical in nature.
+3. The solutions of each subproblem can be combined to solve the problem at hand.
+
+- Divide and conquer using recursion

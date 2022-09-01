@@ -1,0 +1,16 @@
+Bubble sort
+- you're never going to use bubble sort
+
+Insertion sort
+- should be used with small input or mostly sorted data, then it will be really fast
+
+Selection sort
+- you're never going to use bubble sort
+
+Merge sort
+- it's always O(n log n) so it's relatively fast
+- it's divided up evenly
+- in terms of space complexity, it'll be very expensive // O(n) -> sorting outside of memory would be best
+
+Quick sort
+- looks like better than merge sort but you need to be careful about the worst case

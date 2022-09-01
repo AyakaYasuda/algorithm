@@ -1,0 +1,43 @@
+//#1 - Sort 10 schools around your house by distance:
+insertion sort
+- input is only 10, small
+- fast for small sort, easy to code
+- space complexity: O(n)
+
+//#2 - eBay sorts listings by the current Bid amount:
+radix or counting sort
+- Bit is probably from $1 to $100
+- O(n log n)
+- the bits are going to be numbers within a certain range
+
+//#3 - Sport scores on ESPN
+Quick sort
+- merge sort might be a little too much for this because of increased space complexity
+
+//#4 - Massive database (can't fit all into memory) needs to sort through past year's user data
+Merge Sort
+- we can't fill all memory with data so, we need to sort externally
+- sounds like we are not going to be sorting in memory because the data is so big
+- we don't want the worst case of quick sort, which is O(n^2)
+- we want to make sure performance is always good in O(n log n)
+
+//#5 - Almost sorted Udemy review data needs to update and add 2 new reviews
+Insertion Sort
+- most of previous data is already sorted
+- all we need to do is sort just two new reviews
+
+//#6 - Temperature Records for the past 50 years in Canada
+radix or counting Sort (-30 to 27)
+Quick sort if decimal places (-30.5 to 27.3)
+- integer number between a small range would match with radix or counting sort
+- or we can just do in memory sort with quick sort
+
+//#7 - Large user name database needs to be sorted. Data is very random.
+Quick sort
+- if we have enough memory, merge sort would be ok as well
+- if I'm not worried about the worst case and user name database is not that big just to save memory space
+- 
+
+//#8 - You want to teach sorting
+Bubble sort or Selection sort
+- because it's simple and straightforward to understand how sorting works

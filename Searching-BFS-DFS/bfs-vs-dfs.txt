@@ -1,0 +1,24 @@
+Breadth First Search/Traversal O(n)
+- keep going left to right level by level
+pros:
+- good for finding the shortest path
+- start off the root code and search the closest node first and then the node further, so if the target node is likely at the higher level of the tree/graph, it'll work well
+cons: 
+- requires more memory bc we need to keep reference to all children of the node that we visit 
+
+Depth First Search/Traversal O(n)
+- follows one branch of the tree down as many level as possible until the target node is found
+- when the search can't go on any further, it continues at the nearest ancestor with unexplored child
+props:
+- requires less memory
+- good for making sure if the path really exists
+cons: if the tree/graph is deep, it can be slow
+
+
+        9
+    4       34
+  1   6   12  45
+
+BFS: [9, 4, 34, 1, 6, 12, 45]
+DFS: [9, 4, 1, 6, 34, 12, 45]
+

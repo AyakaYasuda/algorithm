@@ -1,0 +1,4 @@
+if you want to find the shortest path, let's say you're using google map, you can use Dijkstra or Bellman Ford algorithm bc they matters the weight of each edge.
+- Bellman Ford algorithm can accommodate negative weights.
+- However, Bellman Ford algorithm's time complexity can be O(n^2) in the worst case.
+- Dijkstra algorithm is faster than Bellman algorithm.

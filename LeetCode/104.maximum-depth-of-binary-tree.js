@@ -23,7 +23,39 @@ class TreeNode {
   }
 }
 
-const maxDepth = function (root) {};
+const maxDepth = function (root) {
+  let maxDepth = 0;
 
-console.log(maxDepth(3));
-console.log(maxDepth(1));
+  if (!root) return maxDepth;
+
+  const dfs = (node, level) => {
+    if (node === null) return;
+
+    if (level > maxDepth) maxDepth = level;
+
+    dfs(node.left, level + 1);
+    dfs(node.right, level + 1);
+  };
+
+  dfs(root, 1);
+  return maxDepth;
+};
+
+
+/*
+   3
+9     20
+   15     7
+*/
+
+// dfs(3, 1) maxDepth = 1
+// dfs(9, 2) maxDepth = 2
+// dfs(null, 3) dfs(null, 3)
+// -> x
+// dfs(20, 2) maxDepth = 2
+// dfs(15, 3) maxDepth = 3
+// dfs(null, 4) dfs(null, 4)
+// -> x
+// dfs(7. 3) maxDepth = 3
+// dfs(null, 4) dfs(null, 4)
+// -> x

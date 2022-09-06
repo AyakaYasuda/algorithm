@@ -29,14 +29,6 @@ Constrains:
 non-zero-position
 */
 
-/*
-[1,3,12,3,12]
-           i
-          j
-[1,3,12,0,0]
-
- */
-
 const moveZeroes = (nums) => {
   let j = 0;
   for (let i = 0; i < nums.length; i++) {
